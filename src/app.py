@@ -32,8 +32,8 @@ threading.Thread(target=voice_worker, daemon=True).start()
 # -------------------- ALERT VARIABLES --------------------
 
 
-alert_interval = 0   # repeat alert every 5 sec
-trigger_time = 0     # wait 3 sec before first alert
+alert_interval = 5
+trigger_time = 3
 
 # -------------------- MEDIAPIPE --------------------
 
